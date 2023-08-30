@@ -1,5 +1,5 @@
 import React from 'react';
-function Navbar() {
+const Header = () => {
   return (
     <nav
       class="navbar navbar-expand-lg bg-primary fixed-top"

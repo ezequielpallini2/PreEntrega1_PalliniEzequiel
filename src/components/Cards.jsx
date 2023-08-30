@@ -1,6 +1,7 @@
 import React from 'react';
-function Cards() {
+const Cards = props => {
   return (
+    <>
     <div class="card" style="width: 18rem;">
       <img
         src="../img/dillom.jpg"
@@ -17,6 +18,9 @@ function Cards() {
         </a>
       </div>
     </div>
+  </>
   );
 }
-export default Cards;
+Cards.propTypes = {}
+
+export default Cards
